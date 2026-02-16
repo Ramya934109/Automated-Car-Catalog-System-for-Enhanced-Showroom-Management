@@ -1,0 +1,55 @@
+Automated Car Catalog System for Enhanced Showroom Management
+
+Category: ServiceNow
+Skills Used: ServiceNow Application Development, Java
+
+1. Introduction:
+
+The Automated Car Catalog System for Enhanced Showroom Management is a ServiceNow-based application designed to streamline and automate showroom operations. The system manages car catalogs, customer inquiries, approvals, inventory tracking, and task assignments efficiently. This project eliminates manual record-keeping and reduces delays in customer handling by automating workflows, approvals, and notifications.
+
+2. Problem Statement:
+
+Car showrooms and dealerships face challenges in managing multiple car models manually, handling customer inquiries and test drive bookings inefficiently, processing discount approvals through unstructured methods, tracking inventory accurately, and assigning tasks manually. These issues cause delays, data inconsistencies, poor inventory visibility, reduced customer satisfaction, and operational inefficiencies.
+
+3. Proposed Solution:
+
+The Automated Car Catalog System was developed using ServiceNow with Java integration support. The system provides centralized car catalog management, automated customer request handling, a test drive booking system, multi-level discount approval workflows, automated task assignments, real-time inventory tracking, and dashboard reporting for management.
+
+4. System Modules:
+
+Car Catalog Management: Stores car details such as model name, variant, price, fuel type, transmission type, and stock availability. Admin can add, update, or deactivate models.
+Customer Request Management: Customers submit inquiries through a portal, and requests are automatically assigned to sales executives.
+Test Drive Booking: Customers select a car and preferred time slot, and automatic confirmation notifications are generated.
+Discount Approval Workflow: Special discount requests are routed to Sales Manager and Showroom Head for approval with automated notifications.
+Inventory Management: Tracks real-time stock availability and generates alerts when stock is low.
+
+5. Technical Implementation:
+
+Platform Used: ServiceNow (Custom Application Development), Java (External integration and backend logic).
+Key Features Used: Custom Tables, Flow Designer, Business Rules, Client Scripts, ACLs, Service Portal, Reports, and Dashboards.
+Main Tables: Car Catalog, Customer, Test Drive Booking, Discount Approval, Inventory.
+Relationships: Customer → Test Drive Booking, Car Catalog → Inventory, Discount Approval → Sales Executive.
+
+6. Security Implementation:
+
+Role-based access control was implemented: Admin (full access), Sales Manager (approval and reporting access), Sales Executive (customer handling access), Customer (portal-based limited access). Field-level and record-level ACLs were applied for data security.
+
+7. Automation Features:
+
+Automatic request assignment, SLA tracking, auto-email notifications, low-stock alerts, and escalation rules for delayed approvals were implemented.
+
+8. Reporting & Dashboard:
+
+The management dashboard includes total inquiries received, pending approvals, sales conversion rate, inventory status, and sales executive performance tracking.
+
+9. Challenges Faced:
+
+Designing efficient approval workflows, managing role-based security, integrating Java APIs, and optimizing reporting performance were key challenges.
+
+10. Outcomes & Benefits:
+
+The system reduced manual processing time by 40%, improved approval turnaround time, enhanced customer response speed, provided better inventory visibility, and increased overall operational efficiency.
+
+11. Future Enhancements:
+
+Future improvements include AI-based car recommendations, chatbot integration, predictive sales analytics, and mobile application integration.
